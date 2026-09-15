@@ -1,0 +1,124 @@
+topic: stack-queue
+topic-name: 스택 / 큐
+start: 2026-09-14
+end: 2026-09-20
+suggestions:
+  - id: programmers-12906
+    source: programmers
+    title: 같은 숫자는 싫어
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12906
+    difficulty: 1
+    label: Lv.1
+  - id: leetcode-20
+    source: leetcode
+    title: 20. Valid Parentheses
+    url: https://leetcode.com/problems/valid-parentheses/
+    difficulty: 1
+    label: Easy
+  - id: programmers-12909
+    source: programmers
+    title: 올바른 괄호
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12909
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-649
+    source: leetcode
+    title: 649. Dota2 Senate
+    url: https://leetcode.com/problems/dota2-senate/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-42
+    source: leetcode
+    title: 42. Trapping Rain Water
+    url: https://leetcode.com/problems/trapping-rain-water/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-589
+    source: leetcode
+    title: 589. N-ary Tree Preorder Traversal
+    url: https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42584
+    source: programmers
+    title: 주식가격
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42584
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-150
+    source: leetcode
+    title: 150. Evaluate Reverse Polish Notation
+    url: https://leetcode.com/problems/evaluate-reverse-polish-notation/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-224
+    source: leetcode
+    title: 224. Basic Calculator
+    url: https://leetcode.com/problems/basic-calculator/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-232
+    source: leetcode
+    title: 232. Implement Queue using Stacks
+    url: https://leetcode.com/problems/implement-queue-using-stacks/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42586
+    source: programmers
+    title: 기능개발
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42586
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-394
+    source: leetcode
+    title: 394. Decode String
+    url: https://leetcode.com/problems/decode-string/
+    difficulty: 2
+    label: Medium
+problems:
+  - id: leetcode-146
+    source: leetcode
+    title: 146. LRU Cache
+    url: https://leetcode.com/problems/lru-cache/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-2
+    source: leetcode
+    title: 2. Add Two Numbers
+    url: https://leetcode.com/problems/add-two-numbers/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-35
+    source: leetcode
+    title: 35. Search Insert Position
+    url: https://leetcode.com/problems/search-insert-position/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-452
+    source: leetcode
+    title: 452. Minimum Number of Arrows to Burst Balloons
+    url: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-528
+    source: leetcode
+    title: 528. Random Pick with Weight
+    url: https://leetcode.com/problems/random-pick-with-weight/
+    difficulty: 2
+    label: Medium
+assignments:
+  jihoon-devstu:
+    picked: []
+    random: leetcode-35
+  myh7754:
+    picked: []
+    random: leetcode-452
+  perish95:
+    picked: []
+    random: leetcode-146
+  pinodo:
+    picked: []
+    random: leetcode-528
+  sjungwon03:
+    picked: []
+    random: leetcode-2
