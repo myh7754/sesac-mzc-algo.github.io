@@ -29,6 +29,11 @@ test("주의 목요일이 속한 달을 그 주의 달로 삼는다", () => {
   assert.equal(currentWeek(new Date("2026-09-07T00:00:00Z")).id, "2026-09-W2");
 });
 
+test("월요일 00:10 KST weekly 실행은 새 주차로 계산한다", () => {
+  assert.equal(currentWeek(new Date("2026-09-13T15:10:00Z")).id, "2026-09-W3");
+  assert.equal(currentWeek(new Date("2026-09-13T14:59:59Z")).id, "2026-09-W2");
+});
+
 test("연말 주차도 한 달에만 속한다", () => {
   assert.equal(currentWeek(new Date("2025-12-29T00:00:00Z")).id, "2026-01-W1");
   assert.equal(currentWeek(new Date("2026-01-01T00:00:00Z")).id, "2026-01-W1");

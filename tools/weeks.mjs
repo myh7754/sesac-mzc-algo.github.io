@@ -15,6 +15,7 @@ export const weekId = (year, month, week) =>
 export const weekLabel = ({ year, month, week }) => `${year}년 ${month}월 ${week}주차`;
 
 const utcDay = (date) => date.getUTCDay() || 7;                 // 월=1 ... 일=7
+const KST_OFFSET_MS = 9 * 60 * 60 * 1000;
 
 // 그 달의 첫 목요일. ISO 주와 같은 규칙으로, 주의 목요일이 속한 달을 그 주의 달로 본다.
 function firstThursday(year, month) {
@@ -42,9 +43,10 @@ export function weekDates(year, month, week) {
   return { start: monday.toISOString().slice(0, 10), end: sunday.toISOString().slice(0, 10) };
 }
 
-// 오늘이 속한 주
+// 오늘이 속한 주. 자동화가 월요일 00:10 KST에 실행되므로 KST 달력 날짜를 기준으로 한다.
 export function currentWeek(date = new Date()) {
-  const day = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  const kst = new Date(date.getTime() + KST_OFFSET_MS);
+  const day = new Date(Date.UTC(kst.getUTCFullYear(), kst.getUTCMonth(), kst.getUTCDate()));
   const thursday = new Date(day);
   thursday.setUTCDate(day.getUTCDate() + 4 - utcDay(day));
   const year = thursday.getUTCFullYear();
