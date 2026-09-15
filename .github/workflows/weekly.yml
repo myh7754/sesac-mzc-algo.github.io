@@ -39,12 +39,12 @@ jobs:
 
       - name: Commit
         run: |
-          if git diff --quiet -- weeks; then
+          git add weeks
+          if git diff --cached --quiet -- weeks; then
             echo "새로 만든 주차가 없습니다."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add weeks
           git commit -m "chore: $(git diff --cached --name-only -- weeks | xargs -n1 basename | sed 's/\.yaml$//' | paste -sd, -) 주차 문제 선정"
           git push
