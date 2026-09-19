@@ -76,10 +76,10 @@ suggestions:
     difficulty: 2
     label: Medium
 problems:
-  - id: leetcode-146
+  - id: leetcode-53
     source: leetcode
-    title: 146. LRU Cache
-    url: https://leetcode.com/problems/lru-cache/
+    title: "53. Maximum Subarray"
+    url: https://leetcode.com/problems/maximum-subarray/
     difficulty: 2
     label: Medium
   - id: leetcode-2
