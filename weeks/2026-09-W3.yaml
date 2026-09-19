@@ -76,12 +76,6 @@ suggestions:
     difficulty: 2
     label: Medium
 problems:
-  - id: leetcode-53
-    source: leetcode
-    title: "53. Maximum Subarray"
-    url: https://leetcode.com/problems/maximum-subarray/
-    difficulty: 2
-    label: Medium
   - id: leetcode-2
     source: leetcode
     title: 2. Add Two Numbers
@@ -106,6 +100,12 @@ problems:
     url: https://leetcode.com/problems/random-pick-with-weight/
     difficulty: 2
     label: Medium
+  - id: leetcode-53
+    source: leetcode
+    title: 53. Maximum Subarray
+    url: https://leetcode.com/problems/maximum-subarray/
+    difficulty: 2
+    label: Medium
   - id: programmers-42583
     source: programmers
     title: 다리를 지나는 트럭
@@ -118,6 +118,18 @@ problems:
     url: https://school.programmers.co.kr/learn/courses/30/lessons/42584
     difficulty: 2
     label: Lv.2
+  - id: programmers-42586
+    source: programmers
+    title: 기능개발
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42586
+    difficulty: 2
+    label: Lv.2
+  - id: programmers-42587
+    source: programmers
+    title: 프로세스
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42587
+    difficulty: 2
+    label: Lv.2
 assignments:
   jihoon-devstu:
     picked: []
@@ -128,7 +140,9 @@ assignments:
       - programmers-42583
     random: leetcode-452
   perish95:
-    picked: []
+    picked:
+      - programmers-42586
+      - programmers-42587
     random: leetcode-53
   pinodo:
     picked: []
