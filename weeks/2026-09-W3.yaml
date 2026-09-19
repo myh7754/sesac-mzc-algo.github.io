@@ -106,12 +106,26 @@ problems:
     url: https://leetcode.com/problems/random-pick-with-weight/
     difficulty: 2
     label: Medium
+  - id: programmers-42583
+    source: programmers
+    title: 다리를 지나는 트럭
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42583
+    difficulty: 2
+    label: Lv.2
+  - id: programmers-42584
+    source: programmers
+    title: 주식가격
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42584
+    difficulty: 2
+    label: Lv.2
 assignments:
   jihoon-devstu:
     picked: []
     random: leetcode-35
   myh7754:
-    picked: []
+    picked:
+      - programmers-42584
+      - programmers-42583
     random: leetcode-452
   perish95:
     picked: []
