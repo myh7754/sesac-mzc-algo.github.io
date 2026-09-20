@@ -138,7 +138,9 @@ problems:
     label: Lv.2
 assignments:
   jihoon-devstu:
-    picked: []
+    picked:
+      - programmers-42584
+      - programmers-12909
     random: leetcode-35
   myh7754:
     picked:
