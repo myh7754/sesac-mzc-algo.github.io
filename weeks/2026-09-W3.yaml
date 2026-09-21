@@ -136,6 +136,12 @@ problems:
     url: https://school.programmers.co.kr/learn/courses/30/lessons/42587
     difficulty: 2
     label: Lv.2
+  - id: leetcode-394
+    source: leetcode
+    title: 394. Decode String
+    url: https://leetcode.com/problems/decode-string/
+    difficulty: 2
+    label: Medium
 assignments:
   jihoon-devstu:
     picked:
