@@ -153,7 +153,9 @@ assignments:
       - programmers-42587
     random: leetcode-53
   pinodo:
-    picked: []
+    picked:
+      - leetcode-394
+      - programmers-42584
     random: leetcode-528
   sjungwon03:
     picked:
