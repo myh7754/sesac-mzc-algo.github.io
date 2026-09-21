@@ -1,0 +1,124 @@
+topic: sorting
+topic-name: 정렬
+start: 2026-09-21
+end: 2026-09-27
+suggestions:
+  - id: programmers-42748
+    source: programmers
+    title: K번째수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42748
+    difficulty: 1
+    label: Lv.1
+  - id: leetcode-242
+    source: leetcode
+    title: 242. Valid Anagram
+    url: https://leetcode.com/problems/valid-anagram/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42746
+    source: programmers
+    title: 가장 큰 수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42746
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-274
+    source: leetcode
+    title: 274. H-Index
+    url: https://leetcode.com/problems/h-index/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-295
+    source: leetcode
+    title: 295. Find Median from Data Stream
+    url: https://leetcode.com/problems/find-median-from-data-stream/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-88
+    source: leetcode
+    title: 88. Merge Sorted Array
+    url: https://leetcode.com/problems/merge-sorted-array/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42747
+    source: programmers
+    title: H-Index
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42747
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-215
+    source: leetcode
+    title: 215. Kth Largest Element in an Array
+    url: https://leetcode.com/problems/kth-largest-element-in-an-array/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-502
+    source: leetcode
+    title: 502. IPO
+    url: https://leetcode.com/problems/ipo/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-169
+    source: leetcode
+    title: 169. Majority Element
+    url: https://leetcode.com/problems/majority-element/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-658
+    source: leetcode
+    title: 658. Find K Closest Elements
+    url: https://leetcode.com/problems/find-k-closest-elements/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-354
+    source: leetcode
+    title: 354. Russian Doll Envelopes
+    url: https://leetcode.com/problems/russian-doll-envelopes/
+    difficulty: 3
+    label: Hard
+problems:
+  - id: leetcode-136
+    source: leetcode
+    title: 136. Single Number
+    url: https://leetcode.com/problems/single-number/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-169
+    source: leetcode
+    title: 169. Majority Element
+    url: https://leetcode.com/problems/majority-element/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-278
+    source: leetcode
+    title: 278. First Bad Version
+    url: https://leetcode.com/problems/first-bad-version/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-79
+    source: leetcode
+    title: 79. Word Search
+    url: https://leetcode.com/problems/word-search/
+    difficulty: 2
+    label: Medium
+  - id: programmers-92334
+    source: programmers
+    title: 신고 결과 받기
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/92334
+    difficulty: 1
+    label: Lv.1
+assignments:
+  jihoon-devstu:
+    picked: []
+    random: leetcode-169
+  myh7754:
+    picked: []
+    random: leetcode-278
+  perish95:
+    picked: []
+    random: leetcode-79
+  pinodo:
+    picked: []
+    random: programmers-92334
+  sjungwon03:
+    picked: []
+    random: leetcode-136
