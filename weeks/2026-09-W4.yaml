@@ -94,12 +94,24 @@ problems:
     url: https://leetcode.com/problems/first-bad-version/
     difficulty: 1
     label: Easy
+  - id: leetcode-56
+    source: leetcode
+    title: 56. Merge Intervals
+    url: https://leetcode.com/problems/merge-intervals/
+    difficulty: 2
+    label: Medium
   - id: leetcode-79
     source: leetcode
     title: 79. Word Search
     url: https://leetcode.com/problems/word-search/
     difficulty: 2
     label: Medium
+  - id: programmers-42746
+    source: programmers
+    title: 가장 큰 수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42746
+    difficulty: 2
+    label: Lv.2
   - id: programmers-92334
     source: programmers
     title: 신고 결과 받기
@@ -111,7 +123,9 @@ assignments:
     picked: []
     random: leetcode-169
   myh7754:
-    picked: []
+    picked:
+      - programmers-42746
+      - leetcode-56
     random: leetcode-278
   perish95:
     picked: []
