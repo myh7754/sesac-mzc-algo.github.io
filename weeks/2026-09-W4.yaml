@@ -88,18 +88,18 @@ problems:
     url: https://leetcode.com/problems/majority-element/
     difficulty: 1
     label: Easy
+  - id: leetcode-215
+    source: leetcode
+    title: 215. Kth Largest Element in an Array
+    url: https://leetcode.com/problems/kth-largest-element-in-an-array/
+    difficulty: 2
+    label: Medium
   - id: leetcode-278
     source: leetcode
     title: 278. First Bad Version
     url: https://leetcode.com/problems/first-bad-version/
     difficulty: 1
     label: Easy
-  - id: leetcode-56
-    source: leetcode
-    title: 56. Merge Intervals
-    url: https://leetcode.com/problems/merge-intervals/
-    difficulty: 2
-    label: Medium
   - id: leetcode-79
     source: leetcode
     title: 79. Word Search
@@ -125,7 +125,7 @@ assignments:
   myh7754:
     picked:
       - programmers-42746
-      - leetcode-56
+      - leetcode-215
     random: leetcode-278
   perish95:
     picked: []
