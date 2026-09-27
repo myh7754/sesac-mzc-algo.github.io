@@ -1,0 +1,124 @@
+topic: sorting
+topic-name: 정렬
+start: 2026-09-28
+end: 2026-10-04
+suggestions:
+  - id: programmers-42748
+    source: programmers
+    title: K번째수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42748
+    difficulty: 1
+    label: Lv.1
+  - id: leetcode-169
+    source: leetcode
+    title: 169. Majority Element
+    url: https://leetcode.com/problems/majority-element/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42746
+    source: programmers
+    title: 가장 큰 수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42746
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-435
+    source: leetcode
+    title: 435. Non-overlapping Intervals
+    url: https://leetcode.com/problems/non-overlapping-intervals/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-295
+    source: leetcode
+    title: 295. Find Median from Data Stream
+    url: https://leetcode.com/problems/find-median-from-data-stream/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-88
+    source: leetcode
+    title: 88. Merge Sorted Array
+    url: https://leetcode.com/problems/merge-sorted-array/
+    difficulty: 1
+    label: Easy
+  - id: programmers-42747
+    source: programmers
+    title: H-Index
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42747
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-658
+    source: leetcode
+    title: 658. Find K Closest Elements
+    url: https://leetcode.com/problems/find-k-closest-elements/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-354
+    source: leetcode
+    title: 354. Russian Doll Envelopes
+    url: https://leetcode.com/problems/russian-doll-envelopes/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-242
+    source: leetcode
+    title: 242. Valid Anagram
+    url: https://leetcode.com/problems/valid-anagram/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-436
+    source: leetcode
+    title: 436. Find Right Interval
+    url: https://leetcode.com/problems/find-right-interval/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-502
+    source: leetcode
+    title: 502. IPO
+    url: https://leetcode.com/problems/ipo/
+    difficulty: 3
+    label: Hard
+problems:
+  - id: leetcode-148
+    source: leetcode
+    title: 148. Sort List
+    url: https://leetcode.com/problems/sort-list/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-208
+    source: leetcode
+    title: 208. Implement Trie (Prefix Tree)
+    url: https://leetcode.com/problems/implement-trie-prefix-tree/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-345
+    source: leetcode
+    title: 345. Reverse Vowels of a String
+    url: https://leetcode.com/problems/reverse-vowels-of-a-string/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-96
+    source: leetcode
+    title: 96. Unique Binary Search Trees
+    url: https://leetcode.com/problems/unique-binary-search-trees/
+    difficulty: 2
+    label: Medium
+  - id: programmers-12913
+    source: programmers
+    title: 땅따먹기
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12913
+    difficulty: 2
+    label: Lv.2
+assignments:
+  jihoon-devstu:
+    picked: []
+    random: leetcode-345
+  myh7754:
+    picked: []
+    random: leetcode-96
+  perish95:
+    picked: []
+    random: leetcode-208
+  pinodo:
+    picked: []
+    random: leetcode-148
+  sjungwon03:
+    picked: []
+    random: programmers-12913
