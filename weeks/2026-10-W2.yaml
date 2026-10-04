@@ -1,0 +1,124 @@
+topic: two-pointers
+topic-name: 투 포인터
+start: 2026-10-05
+end: 2026-10-11
+suggestions:
+  - id: programmers-12977
+    source: programmers
+    title: 소수 만들기
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/12977
+    difficulty: 1
+    label: Lv.1
+  - id: leetcode-27
+    source: leetcode
+    title: 27. Remove Element
+    url: https://leetcode.com/problems/remove-element/
+    difficulty: 1
+    label: Easy
+  - id: programmers-178870
+    source: programmers
+    title: 연속된 부분 수열의 합
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/178870
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-148
+    source: leetcode
+    title: 148. Sort List
+    url: https://leetcode.com/problems/sort-list/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-295
+    source: leetcode
+    title: 295. Find Median from Data Stream
+    url: https://leetcode.com/problems/find-median-from-data-stream/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-202
+    source: leetcode
+    title: 202. Happy Number
+    url: https://leetcode.com/problems/happy-number/
+    difficulty: 1
+    label: Easy
+  - id: programmers-131701
+    source: programmers
+    title: 연속 부분 수열 합의 개수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/131701
+    difficulty: 2
+    label: Lv.2
+  - id: leetcode-61
+    source: leetcode
+    title: 61. Rotate List
+    url: https://leetcode.com/problems/rotate-list/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-42
+    source: leetcode
+    title: 42. Trapping Rain Water
+    url: https://leetcode.com/problems/trapping-rain-water/
+    difficulty: 3
+    label: Hard
+  - id: leetcode-28
+    source: leetcode
+    title: 28. Find the Index of the First Occurrence in a String
+    url: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-5
+    source: leetcode
+    title: 5. Longest Palindromic Substring
+    url: https://leetcode.com/problems/longest-palindromic-substring/
+    difficulty: 2
+    label: Medium
+  - id: leetcode-719
+    source: leetcode
+    title: 719. Find K-th Smallest Pair Distance
+    url: https://leetcode.com/problems/find-k-th-smallest-pair-distance/
+    difficulty: 3
+    label: Hard
+problems:
+  - id: leetcode-290
+    source: leetcode
+    title: 290. Word Pattern
+    url: https://leetcode.com/problems/word-pattern/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-981
+    source: leetcode
+    title: 981. Time Based Key-Value Store
+    url: https://leetcode.com/problems/time-based-key-value-store/
+    difficulty: 2
+    label: Medium
+  - id: programmers-42587
+    source: programmers
+    title: 프로세스
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42587
+    difficulty: 2
+    label: Lv.2
+  - id: programmers-42748
+    source: programmers
+    title: K번째수
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42748
+    difficulty: 1
+    label: Lv.1
+  - id: programmers-42840
+    source: programmers
+    title: 모의고사
+    url: https://school.programmers.co.kr/learn/courses/30/lessons/42840
+    difficulty: 1
+    label: Lv.1
+assignments:
+  jihoon-devstu:
+    picked: []
+    random: leetcode-290
+  myh7754:
+    picked: []
+    random: programmers-42587
+  perish95:
+    picked: []
+    random: leetcode-981
+  pinodo:
+    picked: []
+    random: programmers-42840
+  sjungwon03:
+    picked: []
+    random: programmers-42748
