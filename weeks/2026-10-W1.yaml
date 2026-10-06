@@ -100,10 +100,22 @@ problems:
     url: https://leetcode.com/problems/course-schedule/
     difficulty: 2
     label: Medium
+  - id: leetcode-219
+    source: leetcode
+    title: 219. Contains Duplicate II
+    url: https://leetcode.com/problems/contains-duplicate-ii/
+    difficulty: 1
+    label: Easy
   - id: leetcode-345
     source: leetcode
     title: 345. Reverse Vowels of a String
     url: https://leetcode.com/problems/reverse-vowels-of-a-string/
+    difficulty: 1
+    label: Easy
+  - id: leetcode-594
+    source: leetcode
+    title: 594. Longest Harmonious Subsequence
+    url: https://leetcode.com/problems/longest-harmonious-subsequence/
     difficulty: 1
     label: Easy
   - id: leetcode-611
@@ -138,7 +150,9 @@ problems:
     label: Lv.2
 assignments:
   jihoon-devstu:
-    picked: []
+    picked:
+      - leetcode-219
+      - leetcode-594
     random: leetcode-345
   myh7754:
     picked:
